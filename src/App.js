@@ -29,6 +29,7 @@ function App() {
           <LocationBox weather={weather}/>
         </div>:''}
         {weather.cod==400?<Error />:''}
+        {weather.cod==404?<Error />:''}
         <Github />
       </main>
       </div>
